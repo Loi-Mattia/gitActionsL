@@ -22,7 +22,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-      
         server: ftp.simbalaruee.altervista.org
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
